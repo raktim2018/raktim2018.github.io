@@ -3,7 +3,7 @@
 }
 #spin:after {
   content:"";
-  animation: spin 40s linear infinite;
+  animation: spin 30s linear infinite;
 }
 @keyframes spin {
   0% { content:"Freelancer"; }
@@ -13,6 +13,6 @@
   40% { content:"Freelancer"; }
   50% { content: "Developer"; }
   60% { content: "AI/ML Expert"; }
-  70% { content: "Competitive Programmer"; }
+  to { content: "Competitive Programmer"; }
  
 }
