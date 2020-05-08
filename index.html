@@ -26,11 +26,51 @@
 
   
   <link href="personal/assets/css/style.css" rel="stylesheet">
+  <link href="personal/assets/css/1.css" rel="stylesheet">
 
  
 </head>
 
 <body>
+
+
+ <div class="rubiks-loader">
+  <div class="cube">
+    <!-- base position -->
+    <div class="face front piece row-top    col-left   yellow"></div>
+    <div class="face front piece row-top    col-center green "></div>
+    <div class="face front piece row-top    col-right  white "></div>
+    <div class="face front piece row-center col-left   blue  "></div>
+    <div class="face front piece row-center col-center green "></div>
+    <div class="face front piece row-center col-right  blue  "></div>
+    <div class="face front piece row-bottom col-left   green "></div>
+    <div class="face front piece row-bottom col-center yellow"></div>
+    <div class="face front piece row-bottom col-right  red   "></div>
+
+    <!-- first step: E', equator inverted -->
+    <div class="face down  piece row-top    col-center green "></div>
+    <div class="face down  piece row-center col-center red   "></div>
+    <div class="face down  piece row-bottom col-center white "></div>
+
+    <!-- second step: M, middle -->
+    <div class="face right piece row-center col-left   yellow"></div>
+    <div class="face right piece row-center col-center green "></div>
+    <div class="face right piece row-center col-right  blue  "></div>
+
+    <!-- third step: L, left -->
+    <div class="face up    piece row-top    col-left   yellow"></div>
+    <div class="face up    piece row-center col-left   blue  "></div>
+    <div class="face up    piece row-bottom col-left   green "></div>
+
+    <!-- fourth step: D, down -->
+    <div class="face left  piece row-bottom col-left   green "></div>
+    <div class="face left  piece row-bottom col-center yellow"></div>
+    <div class="face left  piece row-bottom col-right  red   "></div>
+  </div>
+</div>
+
+
+
 
   <!-- ======= Header ======= -->
   <header id="header" class="header-tops">
@@ -673,7 +713,7 @@ problems on dedicated websites and playing Football.
       
 
 
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+      <form action="https://formspree.io/meqrojgk" method="post" role="form" class="php-email-form mt-4">
         <div class="form-row">
           <div class="col-md-6 form-group">
             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
