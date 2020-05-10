@@ -3,7 +3,7 @@
 }
 #spin:after {
   content:"";
-  animation: spin 30s linear infinite;
+  animation: spin 20s linear infinite;
 }
 @keyframes spin {
   0% { content:"Freelancer"; }
